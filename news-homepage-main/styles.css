@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400, 700, 800;
+    ;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: #220930;
+    text-align: center;
+    padding: 10px 13px;
+    text-decoration: none;
+    margin: 5px;
+
+  }
+  a:hover{
+    color: #ac3b10;
+  }
+  .webdesk{
+    width: 710px;
+    height: 320px;
+    background-color: #220930;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 1%;
+    background-image: url('assets/images/image-web-3-desktop.jpg');
+    background-size: cover;
+  }
+
+  .inline-prop{
+    display: flex;
+  }
+
+  .new-prop{
+    width: 345px;
+    height: 450px;
+    background-color: #00001a;
+    position: relative;
+    right: -2%;
+
+  }
+  .new:hover{
+    color:   #f4a850;
+    cursor: pointer;
+  }
+  .new{
+    color:   #f4a850;
+  }
+  .new2{
+    color: #ffffff;
+  }
+  .new2:hover{
+    cursor: pointer;
+    color: #f4a850;
+  }
+  .hydrogen{
+    color: #d8d9e2;
+  }
+.hydrogen:hover{
+    color:   #f4a850;
+    cursor: pointer;
+}
+
+  .par1{
+    color: #808195;
+    font-size: 15px;
+  }
+  .funding{
+    color: #ffffff;
+  }
+  .funding:hover{
+    color:   #f4a850;
+    cursor: pointer;
+
+  }
+
+  .alph{
+    display: flex;
+    z-index: 1;
+  }
+
+  .text1{
+    width: 300px;
+    height: 270px;
+    position: relative;
+    margin-top: 34%;
+    left: -6%;
+  }
+  .textm1{
+    font-size: 48px;
+    color: #000009;
+    font-weight: 800;
+    text-align: left;
+    position: relative;
+    top: 20%;
+  }
+
+  .text2{
+    width: 365px;
+    height: 260px;
+    position: relative;
+    margin-top: 47%;
+    right: -6%;
+    font-size: 15px;
+    color: hsl(236, 13%, 42%);
+  }
+
+  .readmore{
+    width: 180px;
+    height: 40px;
+    background-color: #ea4337;
+    position: relative;
+    top: 11%;
+    
+  }
+  .readmore:hover{
+    background-color: #00001a;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  .rm2{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -50%;
+    color: #e6e5ee;
+    font-size: 15px;
+  }
+
+  .bottom-items{
+    display: flex;
+  }
+
+  .retro{
+    width: 320px;
+    height: 110px;
+    display: flex;
+    position: relative;
+    margin-top: 8%;
+  }
+
+  .retro-pic{
+    width: 100px;
+    height: calc(100%);
+    position: relative;
+    left: -5%;
+    top: -11%;
+    background-image: url('assets/images/image-retro-pcs.jpg');
+    background-size: cover;
+  }
+
+  .retro-text{
+    width: 200px;
+    height: calc(100%);
+    position: relative;
+    top: -16%;
+    z-index: 2;
+    left: -10%;
+    margin: 0px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .zero-one{
+    color: #de6361;
+  }
+  .retro-text-1{
+    font-size: 15px;
+    position: relative;
+    top: -10%;
+  }
+  .retro-text-2{
+    font-size: 14px;
+    position: relative;
+    top: -10%;
+    width: 200px;
+    height: calc(100%);
+    color: #9c9b9e;
+  }
+
+  .laptop{
+    width: 350px;
+    height: 110px;
+    display: flex;
+    position: relative;
+    margin-top: 8%;
+    right: -5%;
+  }
+
+  .laptop-pic{
+    width: 150px;
+    height: calc(100%);
+    position: relative;
+    left: -5%;
+    top: -11%;
+    background-image: url('assets/images/image-top-laptops.jpg');
+    background-size: cover; 
+  }
+  .laptop-text{
+    width: 230px;
+    height: calc(100%);
+    position: relative;
+    top: -16%;
+    z-index: 2;
+    left: -10%;
+    margin: 0px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .two-one{
+    color: #de6361;
+  }
+  .laptop-text-1{
+    font-size: 15px;
+    position: relative;
+    top: -10%;
+    color: #de6361;
+
+  }
+
+  .laptop-text-2{
+    font-size: 14px;
+    position: relative;
+    top: -10%;
+    width: 200px;
+    height: calc(100%);
+    color: #9c9b9e;
+  }
+
+  .gaming{
+    width: 350px;
+    height: 110px;
+    display: flex;
+    position: relative;
+    margin-top: 8%;
+    right: -5%;
+  }
+
+  .gaming-pic{
+    width: 150px;
+    height: calc(100%);
+    position: relative;
+    left: -5%;
+    top: -11%;
+    background-image: url('assets/images/image-gaming-growth.jpg');
+    background-size: cover;
+  }
+
+  .gaming-text{
+    width: 230px;
+    height: calc(100%);
+    position: relative;
+    top: -16%;
+    z-index: 2;
+    left: -10%;
+    margin: 0px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .three-one{
+    color: #de6361;
+  }
+
+  .gaming-text-1{
+    font-size: 15px;
+    position: relative;
+    top: -10%;
+    color: #de6361;
+  }
+
+  .gaming-text-2{
+    font-size: 14px;
+    position: relative;
+    top: -10%;
+    width: 200px;
+    height: calc(100%);
+    color: #9c9b9e; 
+  }
